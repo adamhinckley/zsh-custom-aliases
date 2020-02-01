@@ -15,4 +15,6 @@ alias mm='git pull origin master:master'
 addcom () { 
   git add . && git commit -m $1
   }
+  
+ example: addcom 'this is the commit message' 
 ```
