@@ -1,4 +1,4 @@
-# Custom Aliases for zsh shell
+# Custom Aliases for ZSH shell
 
 Paste the contents of [this file](https://github.com/adamhinckley/zsh-custom-aliases/blob/master/.zshrc) at the bottom of .zshrc on your machine.
 
