@@ -1,4 +1,3 @@
-
 # `mm` pulls and commits master into current branch before doing a pull request
 alias mm='git pull origin master:master'
 
