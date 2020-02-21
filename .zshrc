@@ -14,4 +14,4 @@ squash () {
     git commit -m $2
 }
 
-#a #b
+#a #b #c
