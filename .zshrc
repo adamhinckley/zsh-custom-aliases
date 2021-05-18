@@ -14,4 +14,13 @@ squash () {
     git commit -m $2
 }
 
+# new branch of master from any other branch
+nbmast () {git checkout master && git checkout -b $1}
+
+# new branch
+nb () { git checkout -b $1}
+
+# git checkout -b $1
+gc (){git checkout $1}
+
 #a #b #c
