@@ -23,3 +23,16 @@ addcom () {
 ```
 alias hist='git log --graph --decorate --pretty=oneline --abbrev-commit'
 ```
+
+### new branch of master from any other branch
+```
+nbmast () {git checkout master && git checkout -b $1}
+```
+### new branch
+```
+nb () { git checkout -b $1}
+```
+### git checkout <branch name>
+```
+gc (){git checkout $1}
+```
