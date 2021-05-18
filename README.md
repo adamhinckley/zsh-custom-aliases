@@ -6,12 +6,12 @@ How to: https://blog.lftechnology.com/command-line-productivity-with-zsh-aliases
 
 ## Aliases
 
-### *"mm"* pulls, commits, and pushes master into current branch before doing a pull request`
+### `mm`: pulls, commits, and pushes master into current branch before doing a pull request`
 ```
 alias mm='git pull origin master:master'
 ```
 
-### *"addcom"* adds all files, commits, and has a param for a commit message
+### `addcom`: adds all files, commits, and has a param for a commit message
 ```
 addcom () { 
   git add . && git commit -m $1
@@ -19,20 +19,20 @@ addcom () {
  ``` 
  `example: addcom 'this is the commit message'`
  
- ### *"hist"*  will show a graph of your commit log history and may be easier to visualize your commits.
+ ###  `hist:` shows a graph of your commit log history and may be easier to visualize your commits.
 ```
 alias hist='git log --graph --decorate --pretty=oneline --abbrev-commit'
 ```
 
-### new branch of master from any other branch
+### `nbmast`: new branch of master from any other branch
 ```
 nbmast () {git checkout master && git checkout -b $1}
 ```
-### new branch
+### `nb`: checks out a new branch off og current branch
 ```
 nb () { git checkout -b $1}
 ```
-### git checkout <branch name>
+### `gc:` git checkout <branch name>
 ```
 gc (){git checkout $1}
 ```
